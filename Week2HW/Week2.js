@@ -15,14 +15,22 @@ console.log(typeof numOfToppings);
 
 // Print a template literal that uses both variables to construct a short sentence about your Pizza Place.
 
-console.log(`At ${pizzaPlace}, we have ${numOfToppings} toppings.`);
+//NODEconsole.log(`At ${pizzaPlace}, we have ${numOfToppings} toppings.`);
 
-// Construct an if statement that prints "Qualityad, not quantity." if you offer less than 10 toppings, or "A whole lot of pizza." if you offer 10 or more toppings.
+// Construct an if statement that prints "Quality, not quantity." if you offer less than 10 toppings, or "A whole lot of pizza." if you offer 10 or more toppings.
 
-if (numOfToppings <= 10) {
+/*if (numOfToppings <= 10) {
   console.log("Quality, not quantity.");
 } else if (numOfToppings >= 10) {
   console.log("A whole lot of pizza.");
 }
 
 // *BONUS* Use a loop to print all of the even numbers from 1 to numberOfToppings (or 10)
+
+/*nodenodefunction evenNumToppings() {
+  for (let i = 0; i <= 16; i += 2) {
+    console.log(i);
+  }
+}
+
+evenNumToppings();
