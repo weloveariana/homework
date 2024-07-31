@@ -1,0 +1,32 @@
+* {
+  background-color: antiquewhite
+}
+
+h2 { color: navy;
+  padding: 50px;
+  margin-top: 20px;
+  border: 15px;
+  background-color:rgb(138, 166, 214);
+}
+
+ul, ol {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paraOne {
+  background-color:rgb(138, 166, 214);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#secondHeading {
+  background-color: red;
+  color: navy;
+  font-family: 'Courier New', Courier, monospaces
+
+}
+
+#thirdHeading {
+  background-color: white;
+  color: navy;
+}
